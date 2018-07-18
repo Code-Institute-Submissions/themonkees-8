@@ -1,0 +1,33 @@
+.box {
+    display: flex;
+
+}
+
+.box img {
+    width: 100%;
+}
+
+.box h1 {
+    background: #ff000080;
+    color: #ff0;
+    font-weight: 700;
+    position: absolute;
+    text-align: center;
+    top: 200px;
+    margin-left: 30%;
+    width: 40%;
+}
+
+p{
+    color: #fff;
+    font-weight: 700;
+    background: #ff0000;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}

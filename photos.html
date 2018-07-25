@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" type="text/css" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-
+    <!--Fixed navbar at top-->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#"><i class="fas fa-star"></i>THE ROCKERS</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,15 +33,45 @@
             </div>
         </div>
     </nav>
-
+    <!--/Fixed navbar at top-->
 
     <main>
-
         <img src="images/therockers.jpg" class="img-responsive" alt="Responsive image"></img>
+        <section>
+            <h3>Our photos and party pics</h3>
+            <h3 class="mt-5">Image gallery</h3>
+
+            <p class="imglist" style="max-width: 1000px;">
+                <a href="images/album.jpg" data-fancybox="images">
+                <img src="images/album.jpg" />
+            </a>
+
+                <a href="images/album2.jpg" data-fancybox="images">
+                <img src="images/album2.jpg" />
+            </a>
+
+                <a href="images/cover.jpg" data-fancybox="images">
+                <img src="images/cover.jpg" />
+            </a>
+
+                <a href="images/cover1.jpg" data-fancybox="images">
+                <img src="images/cover1.jpg" />
+            </a>
+
+                <a href="images/cover2.png" data-fancybox="images">
+                <img src="images/cover2.png" />
+            </a>
+
+                <a href="images/cover3.jpg" data-fancybox="images">
+                <img src="images/cover3.jpg" />
+            </a>
+            </p>
+
+        </section>
 
     </main>
 
-
+    <!--Fixed footer at bottom-->
     <footer>
         <nav class="navbar fixed-bottom navbar-expand-lg navbar-dark bg-dark ">
             <!--<p class="navbar-text text-muted">WDesign</p>-->
@@ -55,11 +86,16 @@
             </div>
         </nav>
     </footer>
+    <!--/Fixed footer at bottom-->
 
-
+    <!--Put scripts here-->
+    <!--bootstrap scripts-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
+    <!--fancybox scripts-->
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
 </body>
 
 </html>

@@ -1,6 +1,10 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #000
+    background-color: #fff;
+    background-image: url(../images/therockers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 /*main img {*/

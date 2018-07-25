@@ -35,9 +35,51 @@
 
 
     <main>
+        <header>
+            <h3>Hire us for your Party</h3>
+            <p>Please fill in the below form and we will contact you asap</p>
+        </header>
+        <!--Hire form-->
+        <form>
+            <div class="form-group">
+                <label for="fullname">Full name</label>
+                <input type="text" class="form-control" id="fullname" placeholder="Enter Full Name">
+            </div>
+            <div class="form-group">
+                <label for="emailaddress">Email address</label>
+                <input type="email" class="form-control" id="emailaddress" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+                <label for="phonenumber">Phone number</label>
+                <input type="number" class="form-control" id="phonenumber" placeholder="Enter Phone number">
+            </div>
+            <div class="form-group">
+                <label for="eventlocation">Location of Event</label>
+                <input type="text" class="form-control" id="eventlocation" placeholder="Enter Location">
+            </div>
+            <div class="form-group">
+                <label for="noofguests">Expection no. Guests</label>
+                <input type="number" class="form-control" id="noofguests" placeholder="Enter no. of Guests">
+            </div>
+            <div class="form-group">
+                <label for="typeofevent">Event Type</label>
+                <select class="form-control">
+                <option value="">--Please choose an option--</option>
+                  <option>Wedding</option>
+                  <option>Birthday</option>
+                  <option>Anniversary</option>
+                  <option>National Holiday</option>
+                  <option>Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="dateevent">Date of Event</label>
+                <input type="date" class="form-control" id="dateevent">
+            </div>
 
-        <img src="images/therockers.jpg" class="img-responsive" alt="Responsive image"></img>
-
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <!--/Hire form-->
     </main>
 
 

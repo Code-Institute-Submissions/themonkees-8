@@ -1,26 +1,12 @@
-body {
+.bg{
     font-family: 'Roboto', sans-serif;
     background-color: #fff;
     background-image: url(../images/therockers.jpg);
+    /* Full height */
+    height: 850px;
+
+    /* Center and scale the image*/
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
 }
-
-main {
-    margin-top: 75px;
-}
-
-/*main img {*/
-
-/*    width: 80%;*/
-
-/*}*/
-
-/*main article img{*/
-
-/*    width: 250px;*/
-
-/*    height: 250px;*/
-
-/*}*/

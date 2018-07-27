@@ -1,104 +1,117 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
+<!--font for header and font for body-->
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Rockers - Rock Band</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" type="text/css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><i class="fas fa-star"></i>THE ROCKERS</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-
-            <div class="navbar-nav">
-                <a href="index.html" class="nav-item nav-link font-weight-bold">Home</a>
-                <a href="about.html" class="nav-item nav-link font-weight-bold">About us</a>
-                <a href="photos.html" class="nav-item nav-link font-weight-bold">Photo</a>
-                <a href="music.html" class="nav-item nav-link font-weight-bold">Music</a>
-                <a href="hire.html" class="nav-item nav-link font-weight-bold">Hire us</a>
-
-            </div>
-        </div>
-    </nav>
-
-
-    <main>
-        <header>
-            <h3>Hire us for your Party</h3>
-            <p>Please fill in the below form and we will contact you asap</p>
-        </header>
-        <!--Hire form-->
-        <form>
-            <div class="form-group">
-                <label for="fullname">Full name</label>
-                <input type="text" class="form-control" id="fullname" placeholder="Enter Full Name">
-            </div>
-            <div class="form-group">
-                <label for="emailaddress">Email address</label>
-                <input type="email" class="form-control" id="emailaddress" placeholder="Enter email">
-            </div>
-            <div class="form-group">
-                <label for="phonenumber">Phone number</label>
-                <input type="number" class="form-control" id="phonenumber" placeholder="Enter Phone number">
-            </div>
-            <div class="form-group">
-                <label for="eventlocation">Location of Event</label>
-                <input type="text" class="form-control" id="eventlocation" placeholder="Enter Location">
-            </div>
-            <div class="form-group">
-                <label for="noofguests">Expection no. Guests</label>
-                <input type="number" class="form-control" id="noofguests" placeholder="Enter no. of Guests">
-            </div>
-            <div class="form-group">
-                <label for="typeofevent">Event Type</label>
-                <select class="form-control">
-                <option value="">--Please choose an option--</option>
-                  <option>Wedding</option>
-                  <option>Birthday</option>
-                  <option>Anniversary</option>
-                  <option>National Holiday</option>
-                  <option>Other</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="dateevent">Date of Event</label>
-                <input type="date" class="form-control" id="dateevent">
-            </div>
-
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-        <!--/Hire form-->
-    </main>
-
-
-    <footer>
-        <nav class="navbar fixed-bottom navbar-expand-lg navbar-dark bg-dark ">
-            <!--<p class="navbar-text text-muted">WDesign</p>-->
-            <div class="navbar-collapse justify-content-end">
-                <div class="navbar-nav">
-                    <a href="https://www.facebook.com" target="_blank" class="nav-item nav-link"><i class="fab fa-facebook fa-2x"></i></a>
-                    <a href="https://twitter.com" target="_blank" class="nav-item nav-link"><i class="fab fa-twitter-square fa-2x"></i></a>
-                    <a href="https://www.youtube.com" target="_blank" class="nav-item nav-link"><i class="fab fa-youtube-square fa-2x"></i></a>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg">
+                    <!--Fixed navbar at top-->
+                    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+                        <a class="navbar-brand" href="#"><i class="fas fa-star"></i>THE ROCKERS</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a href="index.html" class="nav-item nav-link font-weight-bold">Home</a>
+                                <a href="about.html" class="nav-item nav-link font-weight-bold">About us</a>
+                                <a href="photos.html" class="nav-item nav-link font-weight-bold">Photo</a>
+                                <a href="music.html" class="nav-item nav-link font-weight-bold">Music</a>
+                                <a href="hire.html" class="nav-item nav-link font-weight-bold">Hire us</a>
+                            </div>
+                        </div>
+                    </nav>
+                    <!--/Fixed navbar at top-->
                 </div>
             </div>
+        </div>
+    </header>
 
+    <main class="bg">
+        <div class="container my-5 pt-3">
+            <div class="row">
+                <div class="col-lg">
+                    <section>
+                        <header>
+                            <h3>Hire us for your Party</h3>
+                            <p>Please fill in the below form and we will contact you asap</p>
+                        </header>
+                        <!--Hire form-->
+                        <form>
+                            <div class="form-group">
+                                <label for="fullname">Full name</label>
+                                <input type="text" class="form-control" id="fullname" placeholder="Enter Full Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="emailaddress">Email address</label>
+                                <input type="email" class="form-control" id="emailaddress" placeholder="Enter email">
+                            </div>
+                            <div class="form-group">
+                                <label for="phonenumber">Phone number</label>
+                                <input type="number" class="form-control" id="phonenumber" placeholder="Enter Phone number">
+                            </div>
+                            <div class="form-group">
+                                <label for="eventlocation">Location of Event</label>
+                                <input type="text" class="form-control" id="eventlocation" placeholder="Enter Location">
+                            </div>
+                            <div class="form-group">
+                                <label for="noofguests">Expection no. Guests</label>
+                                <input type="number" class="form-control" id="noofguests" placeholder="Enter no. of Guests">
+                            </div>
+                            <div class="form-group">
+                                <label for="typeofevent">Event Type</label>
+                                <select class="form-control">
+                                    <option value="">--Please choose an option--</option>
+                                    <option>Wedding</option>
+                                    <option>Birthday</option>
+                                    <option>Anniversary</option>
+                                    <option>National Holiday</option>
+                                    <option>Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="dateevent">Date of Event</label>
+                                <input type="date" class="form-control" id="dateevent">
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                        <!--/Hire form-->
+                    </section>
+                </div>
             </div>
-        </nav>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container-fluid pt-2 fixed-bottom bg-dark">
+            <div class="row">
+                <div class="col-lg">
+                    <section class="mb-2">
+                        <a href="https://www.facebook.com" target="_blank" class="text-light pr-2"><i class="fab fa-facebook fa-2x"></i></a>
+                        <a href="https://twitter.com" target="_blank" class="text-light pr-2"><i class="fab fa-twitter-square fa-2x"></i></a>
+                        <a href="https://www.youtube.com" target="_blank" class="text-light"><i class="fab fa-youtube-square fa-2x"></i></a>
+                    </section>
+                </div>
+            </div>
+        </div>
     </footer>
 
-
+    <!--bootstrap scripts-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>

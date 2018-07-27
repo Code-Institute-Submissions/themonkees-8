@@ -15,6 +15,7 @@
 
 <body>
 
+    
     <header>
         <div class="container-fluid">
             <div class="row">
@@ -41,57 +42,51 @@
         </div>
     </header>
 
-    <main class="bg">
-        <div class="container my-5 pt-3">
+
+    <main>
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg">
                     <section>
                         <header>
-                            <h3>Our photos and party pics</h3>
+                            <h3>We are a 1960’s rock band and have around 50 years experience of performing live at numerous events around the world, learn more <a href="about.html"><strong>about us</strong></a></h3>
                         </header>
-                        <section>
-                            <!--headerhere-->
-                            <p class="mt-5">Image gallery</p>
-                            <!--make div-->
-                            <p class="imglist" style="max-width: 1000px;">
-                                <a href="images/album.jpg" data-fancybox="images">
-                                    <img src="images/album.jpg" />
-                                </a>
+                    </section>
 
-                                <a href="images/album2.jpg" data-fancybox="images">
-                                    <img src="images/album2.jpg" />
-                                </a>
+                    <!--Music-->
+                    <section>
+                        <p>Listen to our latest Hit</p>
+                        <img src="images/album.jpg"></img>
+                        <audio controls>
+                            <source src="audio/Clarksville.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </section>
+                    <!--/Music-->
 
-                                <a href="images/cover.jpg" data-fancybox="images">
-                                    <img src="images/cover.jpg" />
-                                </a>
+                    <!--Video-->
+                    <section>
+                        <p>See us in action</p>
+                        <video width="320" height="240" controls>
+                            <source src="video/TheMonkees.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </section>
+                    <!--Video-->
 
-                                <a href="images/cover1.jpg" data-fancybox="images">
-                                    <img src="images/cover1.jpg" />
-                                </a>
-
-                                <a href="images/cover2.png" data-fancybox="images">
-                                    <img src="images/cover2.png" />
-                                </a>
-
-                                <a href="images/cover3.jpg" data-fancybox="images">
-                                    <img src="images/cover3.jpg" />
-                                </a>
-                            </p>
-                        </section>
                 </div>
             </div>
         </div>
     </main>
-
+    
     <footer>
-        <div class="container-fluid pt-2 fixed-bottom bg-dark">
+        <div class="container-fluid fixed-bottom">
             <div class="row">
                 <div class="col-lg">
-                    <section class="mb-2">
-                        <a href="https://www.facebook.com" target="_blank" class="text-light pr-2"><i class="fab fa-facebook fa-2x"></i></a>
-                        <a href="https://twitter.com" target="_blank" class="text-light pr-2"><i class="fab fa-twitter-square fa-2x"></i></a>
-                        <a href="https://www.youtube.com" target="_blank" class="text-light"><i class="fab fa-youtube-square fa-2x"></i></a>
+                    <section>
+                    <a href="https://www.facebook.com" target="_blank" class=""><i class="fab fa-facebook fa-2x"></i></a>
+                    <a href="https://twitter.com" target="_blank" class=""><i class="fab fa-twitter-square fa-2x"></i></a>
+                    <a href="https://www.youtube.com" target="_blank" class=""><i class="fab fa-youtube-square fa-2x"></i></a>
                     </section>
                 </div>
             </div>
@@ -99,13 +94,10 @@
     </footer>
 
 
-    <!--bootstrap scripts-->
+    <!--Put scripts here-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
-    <!--fancybox scripts-->
-    <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
 </body>
 
 </html>

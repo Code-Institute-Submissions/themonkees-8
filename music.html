@@ -1,107 +1,117 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
+<!--font for header and font for body-->
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Rockers - Rock Band</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" type="text/css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><i class="fas fa-star"></i>THE ROCKERS</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-
-            <div class="navbar-nav">
-                <a href="index.html" class="nav-item nav-link font-weight-bold">Home</a>
-                <a href="about.html" class="nav-item nav-link font-weight-bold">About us</a>
-                <a href="photos.html" class="nav-item nav-link font-weight-bold">Photo</a>
-                <a href="music.html" class="nav-item nav-link font-weight-bold">Music</a>
-                <a href="hire.html" class="nav-item nav-link font-weight-bold">Hire us</a>
-
-            </div>
-        </div>
-    </nav>
-
-
-    <main>
-        <section>
-            <header>
-                <h3>Listen to our songs</h3>
-            </header>
-            <!--Music here-->
-            <!--audio1-->
-            <article>
-                <p>The Rockers - Clarksville</p>
-                <img src="images/album.jpg"></img>
-                <audio controls>
-              <source src="audio/Clarksville.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-            </audio>
-            </article>
-            <!--/audio1-->
-            <!--audio2-->
-            <article>
-                <p>The Rockers - Daydreambeliever</p>
-                <img src="images/cover.jpg"></img>
-                <audio controls>
-              <source src="audio/DaydreamBeliever.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-            </audio>
-            </article>
-            <!--/audio2-->
-            <!--audio3-->
-            <article>
-                <p>The Rockers - ImABeliever</p>
-                <img src="images/cover2.png"></img>
-                <audio controls>
-              <source src="audio/ImABeliever.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-            </audio>
-            </article>
-            <!--/audio3-->
-            <!--audio4-->
-            <article>
-                <p>The Rockers - StepppingStone</p>
-                <img src="images/cover3.jpg"></img>
-                <audio controls>
-              <source src="audio/SteppingStone.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-            </audio>
-            </article>
-            <!--/audio4-->
-            <!--/Music here-->
-        </section>
-
-    </main>
-
-
-    <footer>
-        <nav class="navbar fixed-bottom navbar-expand-lg navbar-dark bg-dark ">
-            <!--<p class="navbar-text text-muted">WDesign</p>-->
-            <div class="navbar-collapse justify-content-end">
-                <div class="navbar-nav">
-                    <a href="https://www.facebook.com" target="_blank" class="nav-item nav-link"><i class="fab fa-facebook fa-2x"></i></a>
-                    <a href="https://twitter.com" target="_blank" class="nav-item nav-link"><i class="fab fa-twitter-square fa-2x"></i></a>
-                    <a href="https://www.youtube.com" target="_blank" class="nav-item nav-link"><i class="fab fa-youtube-square fa-2x"></i></a>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg">
+                    <!--Fixed navbar at top-->
+                    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+                        <a class="navbar-brand" href="#"><i class="fas fa-star"></i>THE ROCKERS</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a href="index.html" class="nav-item nav-link font-weight-bold">Home</a>
+                                <a href="about.html" class="nav-item nav-link font-weight-bold">About us</a>
+                                <a href="photos.html" class="nav-item nav-link font-weight-bold">Photo</a>
+                                <a href="music.html" class="nav-item nav-link font-weight-bold">Music</a>
+                                <a href="hire.html" class="nav-item nav-link font-weight-bold">Hire us</a>
+                            </div>
+                        </div>
+                    </nav>
+                    <!--/Fixed navbar at top-->
                 </div>
             </div>
+        </div>
+    </header>
 
+    <main class="bg">
+        <div class="container my-5 pt-3">
+            <div class="row">
+                <div class="col-lg">
+                    <section>
+                        <header>
+                            <h3>Listen to our songs</h3>
+                        </header>
+                        <!--Music here-->
+                        <!--audio1-->
+                        <article>
+                            <p>The Rockers - Clarksville</p>
+                            <img src="images/album.jpg"></img>
+                            <audio controls>
+                                <source src="audio/Clarksville.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </article>
+                        <!--/audio1-->
+                        <!--audio2-->
+                        <article>
+                            <p>The Rockers - Daydreambeliever</p>
+                            <img src="images/cover.jpg"></img>
+                            <audio controls>
+                                <source src="audio/DaydreamBeliever.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </article>
+                        <!--/audio2-->
+                        <!--audio3-->
+                        <article>
+                            <p>The Rockers - ImABeliever</p>
+                            <img src="images/cover2.png"></img>
+                            <audio controls>
+                                <source src="audio/ImABeliever.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </article>
+                        <!--/audio3-->
+                        <!--audio4-->
+                        <article>
+                            <p>The Rockers - StepppingStone</p>
+                            <img src="images/cover3.jpg"></img>
+                            <audio controls>
+                                <source src="audio/SteppingStone.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                               </audio>
+                        </article>
+                        <!--/audio4-->
+                        <!--/Music here-->
+                    </section>
+                </div>
             </div>
-        </nav>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container-fluid pt-2 fixed-bottom bg-dark">
+            <div class="row">
+                <div class="col-lg">
+                    <section class="mb-2">
+                        <a href="https://www.facebook.com" target="_blank" class="text-light pr-2"><i class="fab fa-facebook fa-2x"></i></a>
+                        <a href="https://twitter.com" target="_blank" class="text-light pr-2"><i class="fab fa-twitter-square fa-2x"></i></a>
+                        <a href="https://www.youtube.com" target="_blank" class="text-light"><i class="fab fa-youtube-square fa-2x"></i></a>
+                    </section>
+                </div>
+            </div>
+        </div>
     </footer>
 
-
+    <!--bootstrap scripts-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>

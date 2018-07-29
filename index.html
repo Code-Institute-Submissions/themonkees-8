@@ -21,8 +21,9 @@
                 <div class="col-lg">
                     <!--Fixed navbar at top-->
                     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-                        <a class="navbar-brand" href="#"><i class="fas fa-star"></i>THE ROCKERS</a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <a class="navbar-brand" href="#"><i class="fas fa-star"></i> <span class="pl-2 font-weight-bold">THE ROCKERS</span></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
@@ -42,36 +43,106 @@
     </header>
 
     <main class="bg">
-        <div class="container my-5 pt-3">
+        <div class="container my-5 pt-5">
             <div class="row">
                 <div class="col-lg">
                     <section>
-                        <!-- give header background imdage with class -->
-                        <header class="">
-                            <h3>We are a 1960’s rock band and have around 50 years experience of performing live at numerous events around the world, learn more <a href="about.html"><strong>about us</strong></a></h3>
-                        </header>
+                        <section>
+                            <header class="text-center border border-warning">
+                                <h3>We are a 1960’s rock band and have around 50 years experience of performing live at numerous events around the world, learn more <a href="about.html"><strong>about us</strong></a></h3>
+                            </header>
+                        </section>
 
-                        <!--Music here-->
-                        <article>
-                            <p>Listen to our latest Hit</p>
-                            <img src="images/album.jpg"></img>
-                            <audio controls>
-                              <source src="audio/Clarksville.mp3" type="audio/mpeg">
-                                Your browser does not support the audio element.
-                            </audio>
-                        </article>
-                        <!--/Music here-->
 
-                        <!--Video here-->
-                        <article>
-                            <p>See us in action</p>
-                            <video width="320" height="240" controls>
-                                <source src="video/TheMonkees.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                            </video>
-                        </article>
-                        <!--Video here-->
+                        <!--Events-->
+                        <div class="col-lg mt-4">
+                            <section>
+                                <header>
+                                    <h3>Upcoming Performances:</h3>
+                                </header>
+                                <table class="table table-striped table-dark">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">When</th>
+                                            <th scope="col">Where</th>
+                                            <th scope="col">Location</th>
+                                            <th scope="col">Come ROCK!</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">September - 7th - 18:00</th>
+                                            <td>ABC Stadium</td>
+                                            <td>UK</td>
+                                            <td>
+                                                <a href="https://www.ticketswap.com" target="_blank">
+                                                    <button type="button" class="btn btn-danger">Ticket</button>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">September - 15th - 20:00</th>
+                                            <td>Sound Palace</td>
+                                            <td>NL</td>
+                                            <td>
+                                                <a href="https://www.ticketswap.com" target="_blank">
+                                                    <button type="button" class="btn btn-danger">Ticket</button>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">October - 10th - 17:00</th>
+                                            <td>Red Stadium</td>
+                                            <td>BE</td>
+                                            <td>
+                                                <a href="https://www.ticketswap.com" target="_blank">
+                                                    <button type="button" class="btn btn-danger">Ticket</button>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </section>
+                        </div>
+                        <!--/Events-->
 
+                        <div class="row mt-5 pt-3">
+                            <div class="col-lg">
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <section class="text-center">
+                                            <h5>Listen to our latest Hit</h5>
+                                            <img src="images/album.jpg" class="position-relative"></img>
+                                        </section>
+                                    </div>
+                                </div>
+
+
+                                <div class="row mt-4">
+                                    <div class="col-lg">
+                                        <!--Music here-->
+                                        <section class="text-center">
+                                            <audio src="audio/Clarksville.mp3" controls>
+                                                Your browser does not support the audio element.
+                                            </audio>
+                                        </section>
+                                        <!--/Music here-->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg">
+                                <!--Video here-->
+                                <section class="text-center">
+                                    <h5>See us in action</h5>
+                                    <video width="320" height="240" controls>
+                                    <source src="video/TheMonkees.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </section>
+                                <!--Video here-->
+                            </div>
+                        </div>
                     </section>
                 </div>
             </div>
@@ -91,7 +162,7 @@
             </div>
         </div>
     </footer>
-    
+
     <!--bootstrap scripts-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>

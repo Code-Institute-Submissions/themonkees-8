@@ -1,7 +1,7 @@
-.bg{
+.bg {
     font-family: 'Roboto', sans-serif;
     background-color: #fff;
-    background-image: url(../images/therockers.jpg);
+    background-image: url(../images/monkees.jpg);
     /* Full height */
     height: 850px;
 
@@ -10,3 +10,18 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+h3,
+h5 {
+    color: #b20000;
+    font-weight: 700;
+    text-shadow: 0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 30px #fff,
+    0 0 40px #fff,
+    0 0 70px #fff,
+    0 0 80px #fff,
+    0 0 100px #fff,
+    0 0 150px #fff;
+}
+

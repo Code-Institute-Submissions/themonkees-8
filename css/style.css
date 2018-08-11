@@ -2,27 +2,20 @@
     font-family: 'Roboto', sans-serif;
     background-color: #fff;
     background-image: url(../images/monkees.jpg);
-    /* Full height */
-    height: 850px;
-
-    /* Center and scale the image*/
+    height: 450px;
+    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+
 }
 
 h3,
 h5, label {
-    color: #b20000;
+    color: #000;
     font-weight: 700;
-    text-shadow: 0 0 10px #fff,
-    0 0 20px #fff,
-    0 0 30px #fff,
-    0 0 40px #fff,
-    0 0 70px #fff,
-    0 0 80px #fff,
-    0 0 100px #fff,
-    0 0 150px #fff;
+
 }
 
 
